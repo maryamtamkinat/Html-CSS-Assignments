@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="logo">
+        <img src="nav-logo.png" alt="" width="50px" />
+        <h2>Fresh <br />Pizza</h2>
+      </div>
+      <ul id="menuList" class="menu-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#trend">Trends</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+      </ul>
+      <div class="menuicon">
+        <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <h1>
+          <i>All The Best <br />Things Are Round</i>
+        </h1>
+        <a href="">Order Now</a>
+      </div>
+    </section>
+
+    <!-- menu section -->
+    <section class="menu-section">
+      <h2 id="menu">Our Menu</h2>
+      <div class="menu-container">
+        <div class="menu-item">
+          <img src="menu-items/chickentikkapizza.jpg" alt="" width="250px" />
+          <h4>Chicken Tikka Pizza</h4>
+          <div class="purchase-item">
+            <p>Rs.2000</p>
+            <div class="btn">Add To Cart</div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="menu-items/Pizza-Margherita.jpg" alt="" width="250px" />
+          <h4>Pizza Margherita</h4>
+          <div class="purchase-item">
+            <p>Rs.3000</p>
+            <div class="btn">Add To Cart</div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="menu-items/pperoni-pizza.jpg" alt="" width="250px" />
+          <h4>Pepperoni Pizza</h4>
+          <div class="purchase-item">
+            <p>Rs.3500</p>
+            <div class="btn">Add To Cart</div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="menu-items/Spicy-Beef-Pizza.jpg"
+            alt=""
+            width="250px"
+            height="165px"
+          />
+          <h4>Spicy Beef Pizza</h4>
+          <div class="purchase-item">
+            <p>Rs.2000</p>
+            <div class="btn">Add To Cart</div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="menu-items/FAJITA PIZZA.jpg" alt="" width="250px" />
+          <h4>Fajita Pizza</h4>
+          <div class="purchase-item">
+            <p>Rs.2000</p>
+            <div class="btn">Add To Cart</div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="menu-items/menu-img1.png"
+            alt=""
+            width="250px"
+            height="165px"
+          />
+          <h4>BBQ Chicken Pizza</h4>
+          <div class="purchase-item">
+            <p>Rs.1500</p>
+            <div class="btn">Add To Cart</div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="menu-items/veggie-pizza.jpg"
+            alt=""
+            width="250px"
+            height="200px"
+          />
+          <h4>Veggie Pizza</h4>
+          <div class="purchase-item">
+            <p>Rs.1000</p>
+            <div class="btn">Add To Cart</div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="menu-items/cheese pizza.jpg"
+            alt=""
+            width="250px"
+            height="200px"
+          />
+          <h4>Cheese Pizza</h4>
+          <div class="purchase-item">
+            <p>Rs.2500</p>
+            <div class="btn">Add To Cart</div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img
+            src="menu-items/Pizza_capricciosa.jpg"
+            alt=""
+            width="250px"
+            height="200px"
+          />
+          <h4>Capricciosa Pizza</h4>
+          <div class="purchase-item">
+            <p>Rs.3000</p>
+            <div class="btn">Add To Cart</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- trend section -->
+    <section id="trend" class="trend-section">
+      <h2>Trending Items</h2>
+      <div class="trend-container">
+        <div class="trend-item">
+          <img src="trend-items/trend1.jpg" alt="img" />
+        </div>
+        <div class="trend-item">
+          <img src="trend-items/trend2.jpg" alt="img" />
+        </div>
+        <div class="trend-item">
+          <img src="trend-items/trend3.jpg" alt="img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- customer reviews -->
+    <section id="reviews" class="testimonial-section">
+      <h2>Customer Review's</h2>
+      <div class="testimonial-container">
+        <div class="testimonial">
+          <img src="users/user1.jpg" alt="picture" width="100px" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur <br />
+            adipisicing elit. Dolores debitis itaque deserunt <br />
+            ratione, eum velit laborum fuga, facere tenetur <br />
+            placeat sit. Earum sit non provident!
+          </p>
+        </div>
+
+        <div class="testimonial">
+          <img src="users/user2.jpg" alt="picture" width="100px" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur <br />
+            adipisicing elit. Dolores debitis itaque deserunt <br />
+            ratione, eum velit laborum fuga, facere tenetur <br />
+            placeat sit. Earum sit non provident!
+          </p>
+        </div>
+
+        <div class="testimonial">
+          <img src="users/user3.jpg" alt="picture" width="100px" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur <br />
+            adipisicing elit. Dolores debitis itaque deserun <br />t ratione,
+            eum velit laborum fuga, facere tenetur <br />
+            placeat sit. Earum sit non provident!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+      <div class="col col-1">
+        <h3>About Us</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+          tempora maiores illum explicabo laudantium distinctio quis inventore,
+          dolor debitis, natus modi iure minima at aliquam!
+        </p>
+      </div>
+      <div class="col">
+        <h3>Our Food</h3>
+        <ul>
+          <li>Quantity</li>
+          <li>Affordable</li>
+          <li>Best Proce</li>
+          <li>Low Cost</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Offers</h3>
+        <ul>
+          <li>20% Off</li>
+          <li>Free 1st meal</li>
+          <li>Quality</li>
+          <li>Affordable</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Contact Us</h3>
+        <ul>
+          <li>Linkdin</li>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- copyright section -->
+    <div class="copyright">
+      <i class="fa fa-copyright" aria-hidden="true"></i> copyright Free
+      FreshMenu 2024 - CodeMentor
+    </div>
+
+    <script>
+      let menuList = document.getElementById("menuList");
+
+      menuList.style.maxHeight = "0px";
+      function toggleMenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "300px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
